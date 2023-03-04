@@ -4,7 +4,7 @@ name: Grafana Mimir
 version: dev
 slug: mimir
 description: A scalable storage for prometheus
-url: "https://github.com/cedricziel/ha-addon-grafana-mimir/blob/main/mimir"
+url: "https://github.com/mcinnes01/ha-addon-grafana-mimir/blob/main/mimir"
 watchdog: http://[HOST]:8001/ready
 apparmor: false
 ports:
@@ -24,4 +24,4 @@ options:
   scrape_ha: false
 schema:
   scrape_ha: "bool?"
-image: "ghcr.io/cedricziel/{arch}-ha-addon-grafana-mimir"
+image: "ghcr.io/mcinnes01/{arch}-ha-addon-grafana-mimir"
